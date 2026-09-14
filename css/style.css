@@ -400,7 +400,7 @@ ul { list-style: none; }
 
 /* ---------- Contact ---------- */
 .contact-note { max-width: 620px; color: var(--text-muted); margin-bottom: 34px; font-size: 1.02rem; }
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; max-width: 760px; }
+.contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 22px; max-width: 980px; }
 .contact-card {
   display: flex;
   align-items: center;
@@ -424,6 +424,7 @@ ul { list-style: none; }
   color: #fff;
   font-size: 22px;
 }
+.contact-icon-text { font-weight: 800; font-size: 19px; }
 .contact-card h3 { font-size: 1rem; font-weight: 700; }
 .contact-card p { font-size: 0.95rem; color: var(--text-muted); word-break: break-all; }
 
